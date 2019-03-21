@@ -1,0 +1,1721 @@
+[
+{
+   "model": "contenttypes.contenttype",
+   "pk": 1,
+   "fields": {
+      "app_label": "todolist",
+      "model": "mylist"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 2,
+   "fields": {
+      "app_label": "todolist",
+      "model": "todo"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 3,
+   "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 4,
+   "fields": {
+      "app_label": "auth",
+      "model": "permission"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 5,
+   "fields": {
+      "app_label": "auth",
+      "model": "group"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 6,
+   "fields": {
+      "app_label": "auth",
+      "model": "user"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 7,
+   "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 8,
+   "fields": {
+      "app_label": "sessions",
+      "model": "session"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "32gsfiebmus6fzelzjhitl122ofw5xph",
+   "fields": {
+      "session_data": "ZTIzYzI5MDgyZDdlZTg2ZDM5NDZmNWI5Njk1YzFlMGUzMjM2Njk5Yzp7Il9hdXRoX3VzZXJfaWQiOiIxIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiI2MmExYWQyN2QwOGY0MzNmOGU5YTFiYTViYzdhYzQ4NGJhZmQxMDVlIn0=",
+      "expire_date": "2019-04-04T17:48:56.151Z"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 1,
+   "fields": {
+      "name": "Can add mylist",
+      "content_type": 1,
+      "codename": "add_mylist"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 2,
+   "fields": {
+      "name": "Can change mylist",
+      "content_type": 1,
+      "codename": "change_mylist"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 3,
+   "fields": {
+      "name": "Can delete mylist",
+      "content_type": 1,
+      "codename": "delete_mylist"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 4,
+   "fields": {
+      "name": "Can view mylist",
+      "content_type": 1,
+      "codename": "view_mylist"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 5,
+   "fields": {
+      "name": "Can add todo",
+      "content_type": 2,
+      "codename": "add_todo"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 6,
+   "fields": {
+      "name": "Can change todo",
+      "content_type": 2,
+      "codename": "change_todo"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 7,
+   "fields": {
+      "name": "Can delete todo",
+      "content_type": 2,
+      "codename": "delete_todo"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 8,
+   "fields": {
+      "name": "Can view todo",
+      "content_type": 2,
+      "codename": "view_todo"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 9,
+   "fields": {
+      "name": "Can add log entry",
+      "content_type": 3,
+      "codename": "add_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 10,
+   "fields": {
+      "name": "Can change log entry",
+      "content_type": 3,
+      "codename": "change_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 11,
+   "fields": {
+      "name": "Can delete log entry",
+      "content_type": 3,
+      "codename": "delete_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 12,
+   "fields": {
+      "name": "Can view log entry",
+      "content_type": 3,
+      "codename": "view_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 13,
+   "fields": {
+      "name": "Can add permission",
+      "content_type": 4,
+      "codename": "add_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 14,
+   "fields": {
+      "name": "Can change permission",
+      "content_type": 4,
+      "codename": "change_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 15,
+   "fields": {
+      "name": "Can delete permission",
+      "content_type": 4,
+      "codename": "delete_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 16,
+   "fields": {
+      "name": "Can view permission",
+      "content_type": 4,
+      "codename": "view_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 17,
+   "fields": {
+      "name": "Can add group",
+      "content_type": 5,
+      "codename": "add_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 18,
+   "fields": {
+      "name": "Can change group",
+      "content_type": 5,
+      "codename": "change_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 19,
+   "fields": {
+      "name": "Can delete group",
+      "content_type": 5,
+      "codename": "delete_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 20,
+   "fields": {
+      "name": "Can view group",
+      "content_type": 5,
+      "codename": "view_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 21,
+   "fields": {
+      "name": "Can add user",
+      "content_type": 6,
+      "codename": "add_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 22,
+   "fields": {
+      "name": "Can change user",
+      "content_type": 6,
+      "codename": "change_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 23,
+   "fields": {
+      "name": "Can delete user",
+      "content_type": 6,
+      "codename": "delete_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 24,
+   "fields": {
+      "name": "Can view user",
+      "content_type": 6,
+      "codename": "view_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 25,
+   "fields": {
+      "name": "Can add content type",
+      "content_type": 7,
+      "codename": "add_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 26,
+   "fields": {
+      "name": "Can change content type",
+      "content_type": 7,
+      "codename": "change_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 27,
+   "fields": {
+      "name": "Can delete content type",
+      "content_type": 7,
+      "codename": "delete_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 28,
+   "fields": {
+      "name": "Can view content type",
+      "content_type": 7,
+      "codename": "view_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 29,
+   "fields": {
+      "name": "Can add session",
+      "content_type": 8,
+      "codename": "add_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 30,
+   "fields": {
+      "name": "Can change session",
+      "content_type": 8,
+      "codename": "change_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 31,
+   "fields": {
+      "name": "Can delete session",
+      "content_type": 8,
+      "codename": "delete_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 32,
+   "fields": {
+      "name": "Can view session",
+      "content_type": 8,
+      "codename": "view_session"
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 1,
+   "fields": {
+      "password": "pbkdf2_sha256$120000$XQGFWw6vaUkH$AHXPHAn4uhc8Whc3T6y5E3DmZdAWbkz7yyIAxlri1rg=",
+      "last_login": "2019-03-21T17:48:56.149Z",
+      "is_superuser": true,
+      "username": "Alex",
+      "first_name": "",
+      "last_name": "",
+      "email": "alezhx@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2019-03-20T01:11:22.634Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 2,
+   "fields": {
+      "password": "pbkdf2_sha256$120000$3mW22TAxt7OS$W4jsIgZLNrZH9bjUHakE7avKMdDs+zGOkTAKvzUC8bs=",
+      "last_login": "2019-03-21T17:47:27.597Z",
+      "is_superuser": false,
+      "username": "mario",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-03-20T05:17:29.115Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 4,
+   "fields": {
+      "password": "pbkdf2_sha256$120000$8qSkFZxvmcbb$/jPENFPFOPDu43AjCF6ZgVLd5h8f/yIp8vQSvTs/q7s=",
+      "last_login": "2019-03-21T17:48:06.756Z",
+      "is_superuser": false,
+      "username": "toad",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2019-03-21T01:45:24.677Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 1,
+   "fields": {
+      "action_time": "2019-03-20T01:50:49.344Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "9",
+      "object_repr": "red todo1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"whichlist\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 2,
+   "fields": {
+      "action_time": "2019-03-20T01:52:13.677Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "8",
+      "object_repr": "alextd1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"whichlist\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 3,
+   "fields": {
+      "action_time": "2019-03-20T02:40:51.916Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "13",
+      "object_repr": "redtodo2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"whichlist\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 4,
+   "fields": {
+      "action_time": "2019-03-20T02:41:02.436Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "13",
+      "object_repr": "redtodo2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"whichlist\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 5,
+   "fields": {
+      "action_time": "2019-03-20T02:43:37.618Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "18",
+      "object_repr": "eugene",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"whichlist\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 6,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.894Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "26",
+      "object_repr": "alextd1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 7,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.899Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "25",
+      "object_repr": "alextd1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 8,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.900Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "24",
+      "object_repr": "red",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 9,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.901Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "23",
+      "object_repr": "red",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 10,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.903Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "22",
+      "object_repr": "ug",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 11,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.904Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "21",
+      "object_repr": "",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 12,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.905Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "20",
+      "object_repr": "",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 13,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.907Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "19",
+      "object_repr": "sub item",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 14,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.908Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "18",
+      "object_repr": "eugene",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 15,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.909Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "17",
+      "object_repr": "test",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 16,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.910Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "16",
+      "object_repr": "add",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 17,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.912Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "15",
+      "object_repr": "test",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 18,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.913Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "14",
+      "object_repr": "add",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 19,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.915Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "13",
+      "object_repr": "redtodo2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 20,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.916Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "12",
+      "object_repr": "test",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 21,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.917Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "11",
+      "object_repr": "alex td2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 22,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.918Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "10",
+      "object_repr": "alextd2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 23,
+   "fields": {
+      "action_time": "2019-03-20T03:25:54.920Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "9",
+      "object_repr": "red todo1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 24,
+   "fields": {
+      "action_time": "2019-03-20T03:26:22.099Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "29",
+      "object_repr": "alex1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"whichlist\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 25,
+   "fields": {
+      "action_time": "2019-03-20T03:26:28.520Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "28",
+      "object_repr": "red1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"whichlist\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 26,
+   "fields": {
+      "action_time": "2019-03-20T03:26:33.616Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "27",
+      "object_repr": "blue1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"whichlist\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 27,
+   "fields": {
+      "action_time": "2019-03-20T03:28:12.582Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "30",
+      "object_repr": "blue2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"whichlist\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 28,
+   "fields": {
+      "action_time": "2019-03-20T03:34:02.946Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "31",
+      "object_repr": "blue3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"whichlist\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 29,
+   "fields": {
+      "action_time": "2019-03-20T04:32:15.375Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "41",
+      "object_repr": "green1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"whichlist\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 30,
+   "fields": {
+      "action_time": "2019-03-20T04:34:32.860Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "42",
+      "object_repr": "green2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"whichlist\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 31,
+   "fields": {
+      "action_time": "2019-03-20T05:18:31.061Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "47",
+      "object_repr": "green3",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"whichlist\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 32,
+   "fields": {
+      "action_time": "2019-03-20T07:20:22.373Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "48",
+      "object_repr": "red1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"whichlist\"]}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 33,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.125Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "51",
+      "object_repr": "red2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 34,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.134Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "50",
+      "object_repr": "red8",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 35,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.135Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "49",
+      "object_repr": "red5",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 36,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.136Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "48",
+      "object_repr": "red1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 37,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.138Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "46",
+      "object_repr": "green8",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 38,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.139Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "45",
+      "object_repr": "green3",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 39,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.140Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "44",
+      "object_repr": "green3",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 40,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.141Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "43",
+      "object_repr": "green3",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 41,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.142Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "42",
+      "object_repr": "green2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 42,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.143Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "41",
+      "object_repr": "green1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 43,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.144Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "40",
+      "object_repr": "",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 44,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.145Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "39",
+      "object_repr": "red4",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 45,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.146Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "38",
+      "object_repr": "red5",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 46,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.147Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "37",
+      "object_repr": "red2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 47,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.148Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "36",
+      "object_repr": "red2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 48,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.150Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "35",
+      "object_repr": "alex2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 49,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.151Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "34",
+      "object_repr": "blue4",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 50,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.152Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "33",
+      "object_repr": "red2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 51,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.153Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "32",
+      "object_repr": "blue4",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 52,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.154Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "31",
+      "object_repr": "blue3",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 53,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.155Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "30",
+      "object_repr": "blue2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 54,
+   "fields": {
+      "action_time": "2019-03-20T08:30:01.156Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "27",
+      "object_repr": "blue1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 55,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.098Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "79",
+      "object_repr": "toad blue 2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 56,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.108Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "78",
+      "object_repr": "toad blue 1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 57,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.110Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "75",
+      "object_repr": "toad green 2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 58,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.111Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "74",
+      "object_repr": "toad green 1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 59,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.113Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "73",
+      "object_repr": "toad red 2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 60,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.114Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "72",
+      "object_repr": "toad red 1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 61,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.116Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "68",
+      "object_repr": "mario green 2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 62,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.118Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "67",
+      "object_repr": "mario blue 1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 63,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.119Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "66",
+      "object_repr": "mario red 1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 64,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.120Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "65",
+      "object_repr": "luigi blue 2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 65,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.121Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "64",
+      "object_repr": "luigi blue 1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 66,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.122Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "62",
+      "object_repr": "luigi red 1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 67,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.123Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "60",
+      "object_repr": "green3",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 68,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.124Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "59",
+      "object_repr": "green2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 69,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.126Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "58",
+      "object_repr": "blue3",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 70,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.127Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "57",
+      "object_repr": "blue2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 71,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.128Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "56",
+      "object_repr": "blue1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 72,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.130Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "55",
+      "object_repr": "green1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 73,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.131Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "54",
+      "object_repr": "red3",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 74,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.132Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "53",
+      "object_repr": "red2",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 75,
+   "fields": {
+      "action_time": "2019-03-21T17:45:56.133Z",
+      "user": 1,
+      "content_type": 2,
+      "object_id": "52",
+      "object_repr": "red1",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 76,
+   "fields": {
+      "action_time": "2019-03-21T17:46:07.900Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "11",
+      "object_repr": "luigi blue list",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 77,
+   "fields": {
+      "action_time": "2019-03-21T17:46:07.908Z",
+      "user": 1,
+      "content_type": 1,
+      "object_id": "10",
+      "object_repr": "luigi red list",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 78,
+   "fields": {
+      "action_time": "2019-03-21T17:49:13.005Z",
+      "user": 1,
+      "content_type": 6,
+      "object_id": "3",
+      "object_repr": "luigi",
+      "action_flag": 3,
+      "change_message": ""
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 80,
+   "fields": {
+      "todoname": "Alex red1",
+      "date": "2019-03-21T13:46:39.481Z",
+      "user": 1,
+      "whichlist": 9
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 81,
+   "fields": {
+      "todoname": "Alex red2",
+      "date": "2019-03-21T13:46:45.177Z",
+      "user": 1,
+      "whichlist": 9
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 82,
+   "fields": {
+      "todoname": "Alex red3",
+      "date": "2019-03-21T13:46:50.277Z",
+      "user": 1,
+      "whichlist": 9
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 83,
+   "fields": {
+      "todoname": "Alex green1",
+      "date": "2019-03-21T13:46:59.506Z",
+      "user": 1,
+      "whichlist": 8
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 84,
+   "fields": {
+      "todoname": "Alex green2",
+      "date": "2019-03-21T13:47:03.140Z",
+      "user": 1,
+      "whichlist": 8
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 85,
+   "fields": {
+      "todoname": "Alex green3",
+      "date": "2019-03-21T13:47:07.281Z",
+      "user": 1,
+      "whichlist": 8
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 86,
+   "fields": {
+      "todoname": "Alex blue1",
+      "date": "2019-03-21T13:47:12.508Z",
+      "user": 1,
+      "whichlist": 7
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 87,
+   "fields": {
+      "todoname": "Alex blue2",
+      "date": "2019-03-21T13:47:16.300Z",
+      "user": 1,
+      "whichlist": 7
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 88,
+   "fields": {
+      "todoname": "Alex blue3",
+      "date": "2019-03-21T13:47:20.061Z",
+      "user": 1,
+      "whichlist": 7
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 89,
+   "fields": {
+      "todoname": "mario green1",
+      "date": "2019-03-21T13:47:34.721Z",
+      "user": 2,
+      "whichlist": 15
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 90,
+   "fields": {
+      "todoname": "mario green2",
+      "date": "2019-03-21T13:47:37.514Z",
+      "user": 2,
+      "whichlist": 15
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 91,
+   "fields": {
+      "todoname": "mario blue1",
+      "date": "2019-03-21T13:47:42.590Z",
+      "user": 2,
+      "whichlist": 14
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 92,
+   "fields": {
+      "todoname": "mario blue2",
+      "date": "2019-03-21T13:47:47.176Z",
+      "user": 2,
+      "whichlist": 14
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 93,
+   "fields": {
+      "todoname": "mario red1",
+      "date": "2019-03-21T13:47:52.115Z",
+      "user": 2,
+      "whichlist": 13
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 94,
+   "fields": {
+      "todoname": "mario red2",
+      "date": "2019-03-21T13:47:55.683Z",
+      "user": 2,
+      "whichlist": 13
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 95,
+   "fields": {
+      "todoname": "toad blue1",
+      "date": "2019-03-21T13:48:14.241Z",
+      "user": 4,
+      "whichlist": 18
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 96,
+   "fields": {
+      "todoname": "toad blue2",
+      "date": "2019-03-21T13:48:17.632Z",
+      "user": 4,
+      "whichlist": 18
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 97,
+   "fields": {
+      "todoname": "toad green1",
+      "date": "2019-03-21T13:48:24.823Z",
+      "user": 4,
+      "whichlist": 17
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 98,
+   "fields": {
+      "todoname": "toad green2",
+      "date": "2019-03-21T13:48:28.950Z",
+      "user": 4,
+      "whichlist": 17
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 99,
+   "fields": {
+      "todoname": "toad red1",
+      "date": "2019-03-21T13:48:33.802Z",
+      "user": 4,
+      "whichlist": 16
+   }
+},
+{
+   "model": "todolist.todo",
+   "pk": 100,
+   "fields": {
+      "todoname": "toad red2",
+      "date": "2019-03-21T13:48:37.191Z",
+      "user": 4,
+      "whichlist": 16
+   }
+},
+{
+   "model": "todolist.mylist",
+   "pk": 7,
+   "fields": {
+      "listname": "blue",
+      "date": "2019-03-19T23:26:02.559Z",
+      "user": 1
+   }
+},
+{
+   "model": "todolist.mylist",
+   "pk": 8,
+   "fields": {
+      "listname": "green",
+      "date": "2019-03-20T00:30:55.061Z",
+      "user": 1
+   }
+},
+{
+   "model": "todolist.mylist",
+   "pk": 9,
+   "fields": {
+      "listname": "red",
+      "date": "2019-03-20T03:19:54.198Z",
+      "user": 1
+   }
+},
+{
+   "model": "todolist.mylist",
+   "pk": 13,
+   "fields": {
+      "listname": "mario red list",
+      "date": "2019-03-20T17:43:10.214Z",
+      "user": 2
+   }
+},
+{
+   "model": "todolist.mylist",
+   "pk": 14,
+   "fields": {
+      "listname": "mario blue list",
+      "date": "2019-03-20T17:43:13.803Z",
+      "user": 2
+   }
+},
+{
+   "model": "todolist.mylist",
+   "pk": 15,
+   "fields": {
+      "listname": "mario green list",
+      "date": "2019-03-20T17:43:18.556Z",
+      "user": 2
+   }
+},
+{
+   "model": "todolist.mylist",
+   "pk": 16,
+   "fields": {
+      "listname": "toad red list",
+      "date": "2019-03-20T21:45:35.553Z",
+      "user": 4
+   }
+},
+{
+   "model": "todolist.mylist",
+   "pk": 17,
+   "fields": {
+      "listname": "toad green list",
+      "date": "2019-03-20T21:45:40.673Z",
+      "user": 4
+   }
+},
+{
+   "model": "todolist.mylist",
+   "pk": 18,
+   "fields": {
+      "listname": "toad blue list",
+      "date": "2019-03-20T21:45:44.378Z",
+      "user": 4
+   }
+}
+]
