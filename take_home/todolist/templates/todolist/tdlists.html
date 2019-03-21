@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MDLand -{{tdlist.listname}}</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href={% static "style.css" %}
+</head>
+<body>
+    <h1>{{tdlist.listname}}</h1>
+    <form action="/index">
+    <input type="submit" value="Go Back to My Lists" />
+    </form>
+    <br>
+    <ul>
+        {%  for Todo in todos %}
+        <li>{{Todo.todoname}} added on {{Todo.date}}
+            <form action="/index/todolist/deltodo/{{Todo.id}}"
+                  style="display: inline;"
+                  method="POST">
+            {% csrf_token %}
+            <input type="submit" value="Delete to-do item"/>
+            </form>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <form action="/index/todolist/addtodo" method="POST">
+        {% csrf_token %}
+        <input type="hidden" name="list_id" value={{list_id}}>
+        <input type="text" name="todoname"/>
+        <input type="submit" value="Add to-do item"/>
+    </form>
+
+</body>
+</html>

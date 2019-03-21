@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MDLand - Home</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href={% static "style.css" %}>
+</head>
+<body>
+    <h1>Welcome to MDLand Home, {{current_user}}!</h1>
+    <h2>My To-do Lists</h2>
+
+    <ul>
+        {%  for mylist in user_lists %}
+            <li><a href="/index/todolist/{{mylist.id}}">{{mylist.listname}}</a>
+                created on {{mylist.date}}
+            <form action="/index/todolist/dellist/{{mylist.id}}" method="POST">
+            {% csrf_token %}
+            <input type="submit" value="Delete List"/>
+            </form>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <form action="/index/createlist" method="POST">
+        {% csrf_token %}
+        <input type="text" name="listname"/>
+        <input type="submit" value="Add to-do List"/>
+    </form>
+
+<br>
+<br>
+    <form action="logout" method="POST">
+        {% csrf_token %}
+        <input type="submit" value="Logout"/>
+    </form>
+
+</body>
+</html>
